@@ -22,8 +22,8 @@
             %a{:href => "#team"} Profile
           %li
             %a{:href => "#services"} Skills
-          %li
-            %a{:href => "#blog"} Blog
+          / %li
+          /   %a{:href => "#blog"} Blog
           %li
             %a{:href => "#contact"} Contact
       / /.navbar-collapse
@@ -250,29 +250,29 @@
             %p Deploy fully developed applications through the Heroku cloud platform. Manage production databases and update production code. Serve website to custom URL.
   / End of Services Section
   / Blog Section
-  %section#blog.blog-section.light-section.dark-content
-    .container
-      %h1.special-heading.dark-special Recent Blog Posts
-      .row
-        .col-sm-4.post-col
-          %figure
-            %img{:alt => "", :src => "assets/post1.jpg"}/
-          %h2 Lorem ipsum dolor
-          %p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta repellat hic deleniti dignissimos provident cupiditate quibusdam adipisci facere? Nobis, ducimus, ullam commodi inventore consequuntur adipisci quam cupiditate vel optio rerum.
-          %a.btn.read-more{:href => ""} Read More
-        .col-sm-4.post-col
-          %figure
-            %img{:alt => "", :src => "assets/post2.jpg"}/
-          %h2 This is a long blog post
-          %p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, molestias, repellat, animi, fugit aliquid fuga saepe nisi quasi debitis voluptate odit beatae atque tempora ad excepturi nemo velit obcaecati vitae.
-          %a.btn.read-more{:href => ""} Read More
-        .col-sm-4.post-col
-          %figure
-            %img{:alt => "", :src => "assets/post3.jpg"}/
-          %h2 This is the title
-          %p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, adipisci, doloremque dolore temporibus numquam ex aliquam ullam eum doloribus voluptatibus suscipit quaerat vel quis consectetur libero. Architecto.
-          %a.btn.read-more{:href => ""} Read More
-      %a.btn.btn-outline.btn-darkblue.more-blog{:href => "#"} Read Our Blog
+  / %section#blog.blog-section.light-section.dark-content
+  /   .container
+  /     %h1.special-heading.dark-special Recent Blog Posts
+  /     .row
+  /       .col-sm-4.post-col
+  /         %figure
+  /           %img{:alt => "", :src => "assets/post1.jpg"}/
+  /         %h2 Lorem ipsum dolor
+  /         %p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta repellat hic deleniti dignissimos provident cupiditate quibusdam adipisci facere? Nobis, ducimus, ullam commodi inventore consequuntur adipisci quam cupiditate vel optio rerum.
+  /         %a.btn.read-more{:href => ""} Read More
+  /       .col-sm-4.post-col
+  /         %figure
+  /           %img{:alt => "", :src => "assets/post2.jpg"}/
+  /         %h2 This is a long blog post
+  /         %p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, molestias, repellat, animi, fugit aliquid fuga saepe nisi quasi debitis voluptate odit beatae atque tempora ad excepturi nemo velit obcaecati vitae.
+  /         %a.btn.read-more{:href => ""} Read More
+  /       .col-sm-4.post-col
+  /         %figure
+  /           %img{:alt => "", :src => "assets/post3.jpg"}/
+  /         %h2 This is the title
+  /         %p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, adipisci, doloremque dolore temporibus numquam ex aliquam ullam eum doloribus voluptatibus suscipit quaerat vel quis consectetur libero. Architecto.
+  /         %a.btn.read-more{:href => ""} Read More
+  /     %a.btn.btn-outline.btn-darkblue.more-blog{:href => "#"} Read Our Blog
   / End of Blog Section
   / Clients Section
   / %section#clients.parallax.clients-section.photo-section.dark-section.light-content{:style => "background-position: 50% 859px;"}
@@ -353,7 +353,7 @@
       .row
         .col-md-8.col-md-offset-2
           %h1.special-heading.dark-special Contact
-          %p.section-description Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, facilis, id, maiores tempore adipisci a corporis magni fugiat facere quo dolor.
+          %p.section-description Currently located in Charelston, SC. Available for hire worldwide.
           .row.contact-informations
             .col-sm-4
               / .contact-info.clearfix
@@ -366,9 +366,9 @@
                 %i.fa.fa-envelope
                 %span rarice@g.cofc.edu
             .col-sm-4
-              / .contact-info.clearfix
-              /   %i.fa.fa-phone
-              /   %span 235 214 2326
+              .contact-info.clearfix
+                %i.fa.fa-phone
+                %span 207 400 7857
       / .row
       /   .col-md-8.col-md-offset-2
       /     #result
